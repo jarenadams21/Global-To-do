@@ -5,6 +5,7 @@ Current Features
 
 --> Specifies which user added a task
 --> Global heading that announces the most recent action across all lists
+--> Lists save to localStorage so that it remains the same upon refresh/exit
 
 Planned Features
 
