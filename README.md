@@ -1,4 +1,21 @@
-# New Project
+# To-do list that allows different users to maintain their own lists. Intended languages: HTML, CSS, JS(Typescript).
+
+
+Current Features
+
+--> Specifies which user added a task
+--> Global heading that announces the most recent action across all lists
+
+Planned Features
+
+--> Create an authorization list that allows multiple users to contribute to one list
+--> Make lists retreivable by login and password instead of just needing the username
+--> Only display tasks belonging to the user
+--> Completed task history
+--> Date/time tracking between tasks
+--> Make tasks resolvable/deletable
+--> Add a priority system to tasks
+--> Styling
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
