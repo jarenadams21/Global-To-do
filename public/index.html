@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="dist/index.js" type="module"></script>
+  <title>Document</title>
+  <style>
+    #list {
+      list-style: none;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1><span id="users-list"></span>'s Todo List</h1>
+  <p>GLOBAL ~ <span id="recent-action"></span></p>
+  <ul id="list"></ul>
+  <form id="new-task-form">
+    <input type="text" id="new-task-title" placeholder="...">
+    <button type="submit">Add Task</button>
+    <input type="text" id="current-user" placeholder="Enter username...">
+    <button type="button">Retrieve List</button>
+  </form>
+</body>
+</html>

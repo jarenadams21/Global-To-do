@@ -1,11 +1,24 @@
-# To-do-List
-To-do list that allows different users to maintain their own lists. Intended languages: HTML, CSS, Typescript(JS)
+# New Project
 
-Planned Features:
+> ✨ Bootstrapped with Create Snowpack App (CSA).
 
---> Save to local storage so that the list is maintained through refreshes/exits
---> Global heading to announce the most recent addition made by a user to their list
---> Add tasks with various levels of priority
---> Remove/resolve tasks once completed
---> Date/time the task was created
---> Completed task history
+## Available Scripts
+
+### npm start
+
+Runs the app in the development mode.
+Open http://localhost:8080 to view it in the browser.
+
+The page will reload if you make edits.
+You will also see any lint errors in the console.
+
+### npm run build
+
+Builds a static copy of your site to the `build/` folder.
+Your app is ready to be deployed!
+
+**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
+
+### Q: What about Eject?
+
+No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
